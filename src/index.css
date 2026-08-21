@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-red: #FF300B;
+    --brand-dark: #000000;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.04em;
+  }
+}
+
+/* Editorial typography & accents */
+.font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+.tracking-editorial {
+  letter-spacing: 0.2em;
+}
+
+.tracking-editorial-wide {
+  letter-spacing: 0.25em;
+}
+
+/* Custom editorial glow and blur elements */
+.blur-circle-white {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 50%, rgba(255, 255, 255, 0) 70%);
+  filter: blur(120px);
+}
+
+.blur-circle-red {
+  background: radial-gradient(circle, rgba(255, 48, 11, 0.15) 0%, rgba(255, 48, 11, 0.04) 50%, rgba(255, 48, 11, 0) 75%);
+  filter: blur(100px);
+}
+
+.editorial-grid {
+  background-size: 60px 60px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF300B;
+}

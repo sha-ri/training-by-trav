@@ -1,0 +1,6 @@
+{
+  "name": "Training by Trav",
+  "description": "Premier personal training, customized goal-setting, and online fitness coaching with Trav in Altamonte Springs, FL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
